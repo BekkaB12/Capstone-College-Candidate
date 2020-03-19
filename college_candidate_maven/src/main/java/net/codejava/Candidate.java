@@ -13,7 +13,7 @@ public class Candidate {
 	private String additionalName;
 	private String lastName;
 	private String emailAddress;
-	private int phone;
+	private String phone;
 	private String position;
 	private String school;
 	private String status;
@@ -72,12 +72,12 @@ public class Candidate {
 	}
 	
 	
-	public int getPhone() {
+	public String getPhone() {
 		return phone;
 	}
 	
 	
-	public void setPhone(int phone) {
+	public void setPhone(String phone) {
 		this.phone = phone;
 	}
 	
