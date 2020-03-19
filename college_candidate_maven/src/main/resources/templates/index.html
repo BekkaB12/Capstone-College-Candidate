@@ -4,12 +4,60 @@
 <head>
 <meta charset="utf-8"/>
 <title>College Candidates</title>
+<style>
+	#background {
+	    background: #999;
+	    width: 100%;
+	    min-height: 50em;
+	    margin: auto;
+	    border: solid 2px #000;
+	    background-image: url('https://img.freepik.com/free-photo/old-grunge-dark-textured-wooden-background-surface-old-brown-wood-texture_7182-333.jpg?size=626&ext=jpg');
+	    background-size: cover;
+ 	    background-repeat: no-repeat;
+	    background-position: center;
+	    }
+	    h1 {
+	    text-align: center;
+	    font-size: 40px;
+	    color: #fffdd0;
+	    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		}
+		a:link, a:visited {
+		color: #fffdd0;
+		border: none;
+		font-size: 18px;
+		text-decoration: underline;
+		font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		}
+		.button {
+		color: #100;
+		}
+		::-webkit-scrollbar {
+        	width: 20px;
+        	border: 2px solid #100;
+        }
+        ::-webkit-scrollbar-track {
+  			box-shadow: inset 0 0 5px grey;
+  			border-radius: 8px;
+		}
+		::-webkit-scrollbar-thumb {
+  			background: #fffdd0;
+  			border-radius: 10px;
+  			border: 2px solid #100;
+		}
+		#table {
+		font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		color: #fffdd0;
+		}
+	</style>
 </head>
 <body>
+<div id="background">
 <div align="center">
     <h1>College Candidates</h1>
     <a href="/new">New Candidate</a>
     <br/><br/>
+    <div id="table">
     <table border="1">
         <thead>
             <tr>
@@ -44,7 +92,8 @@
             </tr>
         </tbody>
     </table>
+    </div>
+</div>
 </div>   
 </body>
 </html>
-© 2020 GitHub, Inc.
